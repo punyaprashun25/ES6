@@ -4,3 +4,12 @@ Array Destructuring
 The Destructuring assigment syntax is a Javascript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
 
 It gives a way to access the elements without using indexes.
+
+Swapping two numbers
+---------------------
+
+Method 1: Using Third variable
+Method 2: without Using Third variable
+    2.A: Using + and - operators
+    2.B: Using * and / operators
+    2.C: Using XOR(^) operators
