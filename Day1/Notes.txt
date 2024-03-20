@@ -21,7 +21,7 @@ console.log(`Hello ${name}`);
 
 3. Template String methods
 
-startsWith() -> it takes a character as parameter and checks the first character, if the passed character matches with first character then returns true otherwise returns false.
+startsWith() -> it takes a character as parameter and c     hecks the first character, if the passed character matches with first character then returns true otherwise returns false.
 
 endsWith() -> it takes a character as parameter and checks the last character, if the passed character matches with last character then returns true otherwise returns false.
 
