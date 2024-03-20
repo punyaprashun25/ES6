@@ -1,0 +1,30 @@
+1. Let, Var & Const
+
+Variables decalred with "var" in javascript are fuction scoped.
+Variables decalred with "let & const" are blocked scoped.
+We cannot redefine const Variables.
+
+2. Template String
+
+Efficient way to build string by concatenation Variables
+
+
+eg. without template string
+
+let name = "Punya Prashun"; 
+console.log("Hello" + name);
+
+eg. with template string
+
+let name = "Punya Prashun"
+console.log(`Hello ${name}`);
+
+3. Template String methods
+
+startsWith() -> it takes a character as parameter and checks the first character, if the passed character matches with first character then returns true otherwise returns false.
+
+endsWith() -> it takes a character as parameter and checks the last character, if the passed character matches with last character then returns true otherwise returns false.
+
+includes() -> it takes a string as parameter and checks if given string is present in the template string or not. if present then returns true otherwise return false.
+
+repeat() -> it takes an integer as a parameter and repeat that template string that number of time and returns the resulant string.
