@@ -1,0 +1,6 @@
+Array Destructuring
+-------------------
+
+The Destructuring assigment syntax is a Javascript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
+
+It gives a way to access the elements without using indexes.
