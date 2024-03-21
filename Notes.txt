@@ -67,3 +67,13 @@ Default Parameters in ES6
 -------------------------
 
 Default function parameters allow named parameters to be initialized with default values if no value or undefined is passed
+
+Rest Parameters
+----------------
+
+Rest parameter is an improved way to handle function parameter, allowing us to more easliy handle various input as paramters in a function. The rest parameter sysntax allows us to represent an indefintite number of arguments as an array.
+
+Spread parameter
+-----------------
+
+Spread operator allows an iterable to expand in places where 0+ arguments are expected. It is mostly used in variable array where ther is more than 1 values are expected. it allows us the privilege to obtain a list of paramters from an array. Syntax of Spread operator is same as Rest Parameter but it workd completely opposite of it.
