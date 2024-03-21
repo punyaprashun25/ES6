@@ -57,6 +57,14 @@ startBtn.addEventListener("click", () =>
     startBtn.style.display = "none";
     submitBtn.style.display = "block"
     // submit button event
+    let answer = document.querySelector("#answer");
+    answer.addEventListener("keypress",(event)=>{
+        if(event.key==="Enter")
+        {
+            event.preventDefault();
+            submitBtn.click();
+        }
+    })
     submitBtn.addEventListener("click", () => {
         console.log("2nd part")
         let answer = document.querySelector("#answer");
