@@ -50,10 +50,12 @@ Method 2: without Using Third variable
 
 Object Destructuring
 -----------------------
+
 The Destructuring assignment syntax is a javascript expression that makes it possible to unpack values from arrays or properties from objects into distinct variables
 
 Fat Arrow Function
 ------------------
+
 Arrow functions( Also called "Fat arrow functions") are undoubtly one of the more popular features of ES6. They introduced a new way of writing concise functions.
 
 eg. const myfunc = () => {
@@ -64,3 +66,4 @@ eg. const sum = (a,b) => a+b;
 Default Parameters in ES6
 -------------------------
 
+Default function parameters allow named parameters to be initialized with default values if no value or undefined is passed
