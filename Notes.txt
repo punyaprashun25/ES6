@@ -78,3 +78,54 @@ Spread parameter
 
 Spread operator allows an iterable to expand in places where 0+ arguments are expected. It is mostly used in variable array where ther is more than 1 values are expected. it allows us the privilege to obtain a list of paramters from an array. Syntax of Spread operator is same as Rest Parameter but it workd completely opposite of it.
 
+Math Object
+------------
+
+Math.sign(number) --> It return 1 if given input is positive, -1 if given input is negative and 0 if input is 0.
+
+eg. sign(5.5)   --> 1
+sign(0)         --> 0
+sign(-0)        --> -0
+sign(NaN)       --> NaN
+sign("punya")   --> NaN
+
+Math.trunc() --> it return only integer part leaving decimal part.
+
+Note: in the case of positive number floor works the same as trunc but in case of negative number output will be different.
+
+eg. trunc(5.556)    --> 5
+    trunc(-5.956)   --> -5
+
+    Math.trunc(-5.9) -->-5
+    Math.floor(-5.9) -->-6
+
+// another method
+// Math.max() --> Maximum Value
+// Math.min() --> Minimum value
+// Math.abs() --> Absolute Value
+// Math.sqrt() --> Sqaure Root of a number
+// Math.pow() --> Base and Power
+// Math.log() --> Base e
+// Math.log10 --> Base 10
+
+Exponentiation Operator in ES6
+------------------------------
+
+The Exponentiation operator (**) raises first operand to the power of the second operand.
+
+x ** y produces the same result as Math.pow(x,y)
+
+Number & Global Method
+------------------------
+
+The isFinite() method
+
+The global isFinite() method returns false if the argument is Infinity or NaN.
+
+The isNaN() Method
+
+The global isNaN() method returns true if the argument is NaN. Otherwise it returns false.
+
+The Number.isInteger() method
+
+The Number.isInteger() method returns true if the argument is an integer.
