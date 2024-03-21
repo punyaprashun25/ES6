@@ -47,3 +47,6 @@ Method 2: without Using Third variable
     2.A: Using + and - operators
     2.B: Using * and / operators
     2.C: Using XOR(^) operators
+
+Object Destructuring
+-----------------------
