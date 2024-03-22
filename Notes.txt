@@ -129,3 +129,55 @@ The global isNaN() method returns true if the argument is NaN. Otherwise it retu
 The Number.isInteger() method
 
 The Number.isInteger() method returns true if the argument is an integer.
+
+
+Classes Creation
+-----------------
+
+class keyword is used to create a class.
+Always add a method named constructor():
+
+--Structure will be like this---
+class classname {
+    constructor(){
+
+    }
+}
+
+eg.
+class car{
+    constructor(name, year)
+    {
+        this.name = name;
+        this.year = year;
+    }
+}
+
+In the above code.. Class name car has two properties called name and year.
+
+
+Note : javascript class is not an object.
+It is a template for javascript Objects.
+
+We can create many objects using a class.
+
+The constructor method is called automatically when a new object is created.
+
+Object Creation
+---------------
+
+const object_name = new Class_name(parameter);
+
+eg. const mycar1 = new Car("Ford", 2014);
+eg. const mycar2 = new Car("Audi", 2019);
+
+Constructor properties & type
+-----------------------------
+Constructor method is special method:
+    It has to have the exact name "constructor".
+    It is executed automatically when a new object is created.
+    It is used to initialize object properties.
+
+Note : If you don't define a constructor method, javascript will add an empty constructor method.
+
+
