@@ -39,3 +39,5 @@ myself.name = "Punya Prashun";
 myself.age = 22;
 myself.qualification = "B.Tech";
 console.log(myself.getDetails())
+
+// Method overloading
