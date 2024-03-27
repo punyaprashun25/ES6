@@ -130,6 +130,19 @@ The Number.isInteger() method
 
 The Number.isInteger() method returns true if the argument is an integer.
 
+this keyword
+-------------
+
+this keyword is a reference variable to the current object.
+
+super keyword
+--------------
+
+super keyword is a reference variable to the parent class object.\
+
+super() method
+--------------
+super() method is a parent class constructor.
 
 Classes Creation
 -----------------
@@ -180,4 +193,56 @@ Constructor method is special method:
 
 Note : If you don't define a constructor method, javascript will add an empty constructor method.
 
+method overloading
+------------------
 
+When a class has two or more methods with the same name but the different signature then it is called method overloading.
+
+Method overriding
+-----------------
+
+When a parent class method is override by the class class then it is called method overriding.
+
+setInterval & clearInterval
+---------------------------
+
+The setInterval() method calls a function at specified intervals (in ms).
+
+The setInterval() method continues calling the function until clearInterval() is called, or the window is closed.
+
+Note : 1 second = 1000 milliseconds.
+
+eg. myInterval = setInterval(function, milliseconds);
+
+Note :
+both arguments are required.
+It returns the id of the timer.
+
+clearing setInterval : clearInterval(myInterval);
+
+Async and Await
+---------------
+
+Thre's a soecial syntax to work with promises in a more comfortable fashion, called "async/await". It is surprisingly easy to understand and use.
+
+The word "async" before a function means one simple thing : a function always return a promise.
+
+So the async keyword is added to functions to tell them to return a promise rather than directly returning the value.
+
+We can use await when calling any function that returns a promise, including web API functions.
+
+The keyword await makes javascript wait until that promise settles and returns its result.
+
+Error-Handling
+--------------
+When executing javascript code, differen errors can occur.
+
+Errors can be coding errors made by the programmer, errors due to wrong input and other unforeseeable things.
+
+try - try keyword defines a code block to run ( to try)
+
+catch - cathc keyword defines a code block to handle any error.
+
+finally - finally keyword defines a code to run regardless of the result.
+
+throw - throw keyword defines a custom error.
