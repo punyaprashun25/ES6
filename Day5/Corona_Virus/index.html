@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corona Virus</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading-box">
+            <p class="heading">Corona Virus Live Report</p>
+        </div>
+        <div class="details-box">
+            <div class="left-section">
+                <div class="info-box">
+                    <p class="label">Country :</p>
+                    <p class="value country-val"></p>
+                </div>
+                <div class="info-box">
+                    <p class="label">Last Update :</p>
+                    <p class="value update-val"></p>
+                </div>
+                <div class="info-box">
+                    <p class="label">Total Cases :</p>
+                    <p class="value total-val"></p>
+                </div>
+                <div class="info-box">
+                    <p class="label">Total Deaths :</p>
+                    <p class="value death-val"></p>
+                </div>
+                <div class="info-box">
+                    <p class="label">Total Recovered :</p>
+                    <p class="value recovered-val"></p>
+                </div>
+            </div>
+            <div class="right-section">
+                <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+                <div class="pieReplace">
+                    <p class="message">
+                        Data insufficient to draw Pie Chart
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="search-box">
+            <label for="search" class="search-text">Search for another country : </label>
+            <input type="text" name="country" id="search">
+            <button class="search-btn">Search</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
